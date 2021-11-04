@@ -1,7 +1,3 @@
-var str = prompt("Start simulation?- (Y/N)");
-
-if(str=="Y")
-{
   var arr1 = ["dice1.png","dice2.png","dice3.png","dice4.png","dice5.png","dice6.png"];
 
   var random1 = Math.ceil(Math.random()*6);
@@ -22,4 +18,3 @@ if(str=="Y")
   {
     document.querySelector("h1").innerHTML="🏁 Player 1 wins!";
   }
-}
